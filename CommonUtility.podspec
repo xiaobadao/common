@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
          s.summary      = "all kinds of categoried for ios develop"
          s.homepage     = "https://github.com/xiaobadao/common"
          s.author       = { 'CommonUtility' => 'https://www.CommonUtility.com"}
-         s.platform     = :ios,'7.0'
+         s.platform     = :ios
+         s.ios.developer_target = '7.0'
          s.license      = 'MIT‘
          s.source = { :git => "https://github.com/xiaobadao/common.git',:tag => '0.0.1' }
          s.source_files  = 'common/Classes/**/*.{h,m}'
