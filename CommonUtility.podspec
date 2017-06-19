@@ -3,8 +3,8 @@ d::Spec.new do |s|
          s.name         = "CommonUtility"
          s.version      = "0.1"
          s.summary      = "CommonUtility"
-         s.homepage     = 'http://www.CommonUtility.com'
-         s.author       = { 'CommonUtility' => 'http://www.CommonUtility.com' }
+         s.homepage     = 'https://www.CommonUtility.com'
+         s.author       = { 'CommonUtility' => 'https://www.CommonUtility.com' }
          s.platform     = :ios
          s.license      = {
          :type => 'Apache License, Version 2.0', :text => <<-LICENSE
@@ -21,4 +21,4 @@ d::Spec.new do |s|
          limitations under the License.
          LICENSE
          }
-         s.source = { :svn => "http://www.yoursvn.com/svn/CommonUtility/" }
+         s.source = { :git => "https://github.com/xiaobadao/common/CommonUtility.h" }
