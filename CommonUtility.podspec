@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
          s.swift-version = "2.3"
          s.license      = 'MIT'
          s.source = { :git => "https://github.com/xiaobadao/common.git",:tag => "0.0.1" }
-         s.source_files  = "common/Classes/**/*.{h,m}"
+         s.source_files  = "common/Classes/**/*."
          s.requires_arc = true
 end
